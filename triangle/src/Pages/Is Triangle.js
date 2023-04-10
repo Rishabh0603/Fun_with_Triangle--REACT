@@ -50,7 +50,7 @@ const IsTriangle = () => {
         onChange={handleInput3}
         placeholder="enter value for angle3"
         type="number"
-      ></input>
+      />
       <br />
       <button onClick={handleOnClick}>Is Triangle ?</button>
       <h2>{output}</h2>

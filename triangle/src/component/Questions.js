@@ -10,7 +10,7 @@ const Questions = () => {
           = 90°?
         </p>
         <label>
-          <input type="radio" name="1" value="45" />
+          <input type="radio" name="1" value="45" className="bind" />
           45°
         </label>
         <label>

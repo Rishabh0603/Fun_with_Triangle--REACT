@@ -14,7 +14,7 @@ const Quiz = () => {
        <Questions />
        
 
-     <button onClick={handleOnClick}>Submit</button>
+     <button >Submit</button>
     </div>
   );
 };

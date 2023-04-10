@@ -7,10 +7,22 @@ const Navbar = () => {
         <h1 className="Main_heading">Fun with Triangles</h1>
         <ul className="Navigator">
           <div className="links">
-            <Link to='/Is Triangle'className='li'>Is Triangle?</Link>
-            <Link to="/quiz"className='li'>Quiz</Link>
-            <Link to="/hypotenuse"className='li'>Hypotenuse</Link>
-            <Link to="/"className='li'>Area of Triangle</Link>
+            <li>
+            <Link to='/Is Triangle'className="whiteName" >Is Triangle?</Link>
+            </li>
+
+             <li>
+            <Link to="/quiz"className="whiteName" >Quiz</Link>
+            </li>
+
+            <li>
+            <Link to="/hypotenuse" className="whiteName" >Hypotenuse</Link>
+            </li>
+
+            <li>
+            <Link to="/" className="whiteName" >Area of Triangle</Link>
+            </li>
+
           </div>
         </ul>
       </header>
